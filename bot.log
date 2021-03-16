@@ -1,0 +1,457 @@
+2020-11-17 20:07:31,421 DEBUG Отправляем сообщение назад
+2020-11-17 20:07:31,741 DEBUG Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+2020-11-17 20:09:47,265 DEBUG Отправляем сообщение назад
+2020-11-17 20:09:47,417 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+2020-11-17 20:10:20,434 DEBUG Отправляем сообщение назад
+2020-11-17 20:10:20,602 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+17-11-2020 20:15 DEBUG Отправляем сообщение назад
+17-11-2020 20:15 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+18-11-2020 13:39 DEBUG Отправляем сообщение назад
+18-11-2020 13:39 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 15:45 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_NEW
+30-11-2020 15:47 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_NEW
+30-11-2020 15:50 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 55, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 71, in on_event
+    if any(token in text for token in intent['tokens']):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 71, in <genexpr>
+    if any(token in text for token in intent['tokens']):
+TypeError: argument of type 'NoneType' is not iterable
+30-11-2020 15:54 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 55, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 71, in on_event
+    if any(token in text for token in intent['tokens']):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 71, in <genexpr>
+    if any(token in text for token in intent['tokens']):
+TypeError: argument of type 'NoneType' is not iterable
+30-11-2020 15:54 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:00 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 70, in on_event
+    if any(token in text for token in intent['tokens']):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 70, in <genexpr>
+    if any(token in text for token in intent['tokens']):
+TypeError: argument of type 'NoneType' is not iterable
+30-11-2020 16:05 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 70, in on_event
+    if any(token in text for token in intent["tokens"]):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 70, in <genexpr>
+    if any(token in text for token in intent["tokens"]):
+TypeError: argument of type 'NoneType' is not iterable
+30-11-2020 16:17 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 70, in on_event
+    if any(token in text for token in intent["tokens"]):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 70, in <genexpr>
+    if any(token in text for token in intent["tokens"]):
+TypeError: argument of type 'NoneType' is not iterable
+30-11-2020 16:20 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 63, in on_event
+    user_id = event.object.message.peer_id
+AttributeError: 'dict' object has no attribute 'peer_id'
+30-11-2020 16:20 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:21 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:21 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:21 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:21 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:21 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:21 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 67, in on_event
+    text_to_send = self.continue_scenario(user_id, text)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 101, in continue_scenario
+    text_to_send = next_step["text"].format(**state.context)
+KeyError: 'nane'
+30-11-2020 16:22 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 67, in on_event
+    text_to_send = self.continue_scenario(user_id, text)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 101, in continue_scenario
+    text_to_send = next_step["text"].format(**state.context)
+KeyError: 'nane'
+30-11-2020 16:22 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:22 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:22 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:22 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 67, in on_event
+    text_to_send = self.continue_scenario(user_id, text)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 101, in continue_scenario
+    text_to_send = next_step["text"].format(**state.context)
+KeyError: 'email'
+30-11-2020 16:24 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:24 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+30-11-2020 16:24 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:04 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 66, in on_event
+    state = UserState.get(user_id=user_id)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4106, in _find_one_
+    throw(ERDiagramError, 'Mapping is not generated for entity %r' % entity.__name__)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.ERDiagramError: Mapping is not generated for entity 'UserState'
+01-12-2020 22:09 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+01-12-2020 22:09 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+01-12-2020 22:09 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+01-12-2020 22:09 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:09 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+01-12-2020 22:09 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+01-12-2020 22:09 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:09 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+01-12-2020 22:09 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+01-12-2020 22:09 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+01-12-2020 22:09 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 77, in on_event
+    text_to_send = self.start_scenario(user_id, intent['scenario'])
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 93, in start_scenario
+    UserState(user_id=str(user_id), scenario_name=scenario_name, step_name=first_step, context={})
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4712, in __init__
+    avdict[attr] = attr.validate(val, obj, from_db=False)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 2544, in validate
+    val = Attribute.validate(attr, val, obj, entity, from_db)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 2215, in validate
+    val = converter.validate(val, obj)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\dbapiprovider.py", line 538, in validate
+    except ValueError: throw(ValueError,
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+ValueError: Value type for attribute UserState.step_name must be int. Got string 'step1'
+01-12-2020 22:25 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+01-12-2020 22:25 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+01-12-2020 22:25 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+01-12-2020 22:25 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:26 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:26 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:26 INFO Зарегистрирован: 123 123@123.ru
+01-12-2020 22:26 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:29 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+01-12-2020 22:29 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+01-12-2020 22:29 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+01-12-2020 22:29 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:30 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+01-12-2020 22:30 INFO Зарегистрирован: Fedor fedor@fedor.ru
+01-12-2020 22:30 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:36 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+02-12-2020 11:36 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+02-12-2020 11:36 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+02-12-2020 11:36 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:36 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:36 INFO Зарегистрирован: Нигга nega@nega.ru
+02-12-2020 11:36 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 69, in on_event
+    text_to_send = self.continue_scenario(text, state)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 108, in continue_scenario
+    Registration(name=state.context['name'], email=state.context['email'])
+NameError: name 'Registration' is not defined
+02-12-2020 11:38 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\dbapiprovider.py", line 52, in wrap_dbapi_exceptions
+    return func(provider, *args, **kwargs)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\dbproviders\postgres.py", line 261, in execute
+    else: cursor.execute(sql, arguments)
+psycopg2.errors.UndefinedTable: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 66, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4121, in _find_one_
+    if obj is None: obj = entity._find_in_db_(avdict, unique, for_update, nowait, skip_locked)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4180, in _find_in_db_
+    cursor = database._exec_sql(sql, arguments)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 954, in _exec_sql
+    connection = cache.reconnect(e)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 1789, in reconnect
+    if not provider.should_reconnect(exc): reraise(*sys.exc_info())
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 952, in _exec_sql
+    try: new_id = provider.execute(cursor, sql, arguments, returning_id)
+  File "<string>", line 2, in execute
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\dbapiprovider.py", line 64, in wrap_dbapi_exceptions
+    raise ProgrammingError(e)
+pony.orm.dbapiprovider.ProgrammingError: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+02-12-2020 11:39 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+02-12-2020 11:39 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+02-12-2020 11:39 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+02-12-2020 11:39 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:39 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:39 INFO Зарегистрирован: nega nega@nega.ru
+02-12-2020 11:39 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:40 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+02-12-2020 11:40 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+02-12-2020 11:40 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+02-12-2020 11:40 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:40 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:40 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 11:40 INFO Зарегистрирован: ыфаы 124@asfd.ru
+02-12-2020 11:40 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 15:17 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+02-12-2020 15:17 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+02-12-2020 15:17 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+02-12-2020 15:17 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 15:17 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 15:21 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+02-12-2020 15:21 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+02-12-2020 15:21 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+02-12-2020 15:21 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 15:22 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+02-12-2020 15:27 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 65, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4120, in _find_one_
+    obj, unique = entity._find_in_cache_(pkval, avdict, for_update)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4125, in _find_in_cache_
+    cache = entity._database_._get_cache()
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 860, in _get_cache
+    ): throw(TransactionError, 'db_session is required when working with the database')
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.TransactionError: db_session is required when working with the database
+02-12-2020 15:29 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 65, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4120, in _find_one_
+    obj, unique = entity._find_in_cache_(pkval, avdict, for_update)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4125, in _find_in_cache_
+    cache = entity._database_._get_cache()
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 860, in _get_cache
+    ): throw(TransactionError, 'db_session is required when working with the database')
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.TransactionError: db_session is required when working with the database
+10-12-2020 08:41 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 65, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4120, in _find_one_
+    obj, unique = entity._find_in_cache_(pkval, avdict, for_update)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4125, in _find_in_cache_
+    cache = entity._database_._get_cache()
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 860, in _get_cache
+    ): throw(TransactionError, 'db_session is required when working with the database')
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.TransactionError: db_session is required when working with the database
+10-12-2020 08:42 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 65, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4120, in _find_one_
+    obj, unique = entity._find_in_cache_(pkval, avdict, for_update)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4125, in _find_in_cache_
+    cache = entity._database_._get_cache()
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 860, in _get_cache
+    ): throw(TransactionError, 'db_session is required when working with the database')
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.TransactionError: db_session is required when working with the database
+10-12-2020 08:54 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 65, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4120, in _find_one_
+    obj, unique = entity._find_in_cache_(pkval, avdict, for_update)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4125, in _find_in_cache_
+    cache = entity._database_._get_cache()
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 860, in _get_cache
+    ): throw(TransactionError, 'db_session is required when working with the database')
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.TransactionError: db_session is required when working with the database
+10-12-2020 08:55 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 65, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4120, in _find_one_
+    obj, unique = entity._find_in_cache_(pkval, avdict, for_update)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4125, in _find_in_cache_
+    cache = entity._database_._get_cache()
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 860, in _get_cache
+    ): throw(TransactionError, 'db_session is required when working with the database')
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.TransactionError: db_session is required when working with the database
+10-12-2020 09:32 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 54, in run
+    self.on_event(event)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 65, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4120, in _find_one_
+    obj, unique = entity._find_in_cache_(pkval, avdict, for_update)
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 4125, in _find_in_cache_
+    cache = entity._database_._get_cache()
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 860, in _get_cache
+    ): throw(TransactionError, 'db_session is required when working with the database')
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\utils\utils.py", line 106, in throw
+    raise exc
+pony.orm.core.TransactionError: db_session is required when working with the database
+10-12-2020 09:34 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 09:34 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 09:34 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 09:34 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:34 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 09:34 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 09:34 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 09:34 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:34 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:34 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:35 INFO Зарегистрирован: 1232 123@123.ru
+10-12-2020 09:35 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:35 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:45 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 09:45 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 09:45 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 09:45 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:45 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 09:45 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 09:45 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 09:45 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:45 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:45 INFO Зарегистрирован: едрен 444@1242.ru
+10-12-2020 09:45 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:45 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:46 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 09:46 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 09:46 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 09:46 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:46 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 09:46 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 09:46 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 09:46 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:46 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 09:46 ERROR Ошибка в обработку события
+Traceback (most recent call last):
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 55, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "C:\python_enviroments\python_base\vk_bot_venv\lib\site-packages\pony\orm\core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 70, in on_event
+    self.continue_scenario(text, state, user_id)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 127, in continue_scenario
+    self.send_step(next_step, user_id, text, context=state.context)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 110, in send_step
+    self.send_image(image, user_id)
+  File "C:/Users/Fedenka/PycharmProjects/python_base/chatbot/vk_bot.py", line 95, in send_image
+    owner_id = image_data['owner_id']
+TypeError: list indices must be integers or slices, not str
+10-12-2020 09:46 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:00 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:00 INFO Зарегистрирован: bubu 123@12333333.ru
+10-12-2020 11:00 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:00 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:07 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 11:07 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 11:07 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 11:07 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:07 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:07 INFO Зарегистрирован: РОМА 12424@ololo.ru
+10-12-2020 11:07 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:08 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+10-12-2020 11:08 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+10-12-2020 11:08 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+10-12-2020 11:08 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:08 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:14 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:14 INFO Зарегистрирован: saoifosa 123@12321.ru
+10-12-2020 11:14 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+10-12-2020 11:14 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+16-03-2021 18:54 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+16-03-2021 18:55 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+16-03-2021 18:55 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+16-03-2021 18:55 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+16-03-2021 18:55 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+16-03-2021 18:55 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+16-03-2021 18:55 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+16-03-2021 18:55 DEBUG User gets {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату'), 'scenario': None, 'answer': 'Конференция проводится 15го апреля, регистрация начнется в 10 утра'}
+16-03-2021 18:55 DEBUG User gets {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре'}
+16-03-2021 18:55 DEBUG User gets {'name': 'Регистрация', 'tokens': ('регист', 'добав'), 'scenario': 'registration', 'answer': None}
+16-03-2021 18:55 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+16-03-2021 18:55 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+16-03-2021 18:55 INFO Зарегистрирован: Федя fbo@kk.com
+16-03-2021 18:55 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
+16-03-2021 18:55 INFO Мы не умеем обрабатывать событие такого типа VkBotEventType.MESSAGE_REPLY
